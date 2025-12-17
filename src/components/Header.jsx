@@ -20,7 +20,7 @@ function Header() {
               <a href="#products" className="nav-link">{t('nav.products')}</a>
               <Link to="/about" className="nav-link">{t('nav.about')}</Link>
               <a 
-                href="https://wa.me/2001059024896?text=Hello%20Road%20Lions!%20I'm%20interested%20in%20your%20car%20accessories." 
+                href="https://wa.me/+201069024896?text=Hello%20Road%20Lions!%20I'm%20interested%20in%20your%20car%20accessories." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-link whatsapp-link"
