@@ -248,6 +248,29 @@
   line-height: 1.7;
 }
 
+.btn-whatsapp-cta {
+  background-color: #25D366;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp-cta:hover {
+  background-color: #128C7E;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+}
+
+[dir="rtl"] .btn-whatsapp-cta svg {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero {

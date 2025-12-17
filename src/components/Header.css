@@ -50,6 +50,26 @@
   position: relative;
 }
 
+.whatsapp-link {
+  background-color: #25D366;
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-link::after {
+  display: none;
+}
+
 .nav-link::after {
   content: '';
   position: absolute;
