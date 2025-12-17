@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Use /Road-Lions/ for production (GitHub Pages), / for development
-  base: process.env.NODE_ENV === 'production' ? '/Road-Lions/' : '/',
+  // Use / for Vercel, /Road-Lions/ for GitHub Pages, / for development
+  base: '/',
   server: {
     port: 3000,
     open: true
