@@ -1,0 +1,137 @@
+/* RTL (Right-to-Left) Support for Arabic */
+
+/* HTML Direction */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Header RTL */
+[dir="rtl"] .header-content {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-wrapper {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav {
+  flex-direction: row-reverse;
+}
+
+/* Footer RTL */
+[dir="rtl"] .footer-content {
+  direction: rtl;
+}
+
+[dir="rtl"] .footer-links {
+  text-align: right;
+}
+
+[dir="rtl"] .social-links {
+  flex-direction: row-reverse;
+}
+
+/* Hero Section RTL */
+[dir="rtl"] .hero-buttons {
+  flex-direction: row-reverse;
+}
+
+/* Features RTL */
+[dir="rtl"] .features-grid {
+  direction: rtl;
+}
+
+/* Products RTL */
+[dir="rtl"] .products-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .product-category {
+  right: auto;
+  left: 15px;
+}
+
+[dir="rtl"] .product-info {
+  text-align: right;
+}
+
+/* About Page RTL */
+[dir="rtl"] .story-content {
+  direction: rtl;
+}
+
+[dir="rtl"] .values-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .why-choose-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .why-item {
+  border-left: none;
+  border-right: 4px solid var(--primary-orange);
+}
+
+[dir="rtl"] .why-item:hover {
+  border-right-width: 8px;
+  transform: translateX(-5px);
+}
+
+[dir="rtl"] .social-cta {
+  flex-direction: row-reverse;
+}
+
+/* Language Switcher RTL */
+[dir="rtl"] .language-switcher {
+  flex-direction: row-reverse;
+}
+
+/* Arabic Font Optimization */
+[dir="rtl"] body {
+  font-family: 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  font-family: 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: 700;
+}
+
+[dir="rtl"] .btn,
+[dir="rtl"] .nav-link,
+[dir="rtl"] .lang-btn {
+  font-family: 'Cairo', 'Segoe UI', Tahoma, Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* Numbers in Arabic context should stay LTR */
+[dir="rtl"] .why-number,
+[dir="rtl"] .footer-bottom {
+  direction: ltr;
+  text-align: center;
+}
+
+/* Responsive RTL */
+@media (max-width: 768px) {
+  [dir="rtl"] .header-content {
+    flex-direction: column;
+  }
+  
+  [dir="rtl"] .nav-wrapper {
+    flex-direction: column;
+  }
+  
+  [dir="rtl"] .hero-buttons {
+    flex-direction: column;
+  }
+  
+  [dir="rtl"] .social-cta {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us"
+  },
+  "hero": {
+    "title": "Welcome to Road Lions",
+    "subtitle": "Premium Car Accessories & Automotive Store",
+    "description": "Upgrade your vehicle with our high-quality automotive accessories. From interior enhancements to exterior styling, we have everything you need.",
+    "shopNow": "Shop Now",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "quality": {
+      "title": "Quality Products",
+      "description": "Premium automotive accessories from trusted brands"
+    },
+    "delivery": {
+      "title": "Fast Delivery",
+      "description": "Quick and reliable shipping to your doorstep"
+    },
+    "satisfaction": {
+      "title": "Satisfaction Guaranteed",
+      "description": "Quality assurance on all our products"
+    }
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "Discover our range of premium car accessories and automotive parts",
+    "viewDetails": "View Details",
+    "categories": {
+      "interior": "Interior",
+      "lighting": "Lighting",
+      "exterior": "Exterior",
+      "electronics": "Electronics",
+      "accessories": "Accessories"
+    },
+    "items": {
+      "backrest": {
+        "name": "Medical Memory Foam Chiropractic Backrest",
+        "description": "Lumbar Support Pillow for Car and Office Chair | Orthopedic Lumbar Support Cushion for Back Pain Relief"
+      },
+      "carArmrest": {
+        "name": "4 in 1 Car Armrest with Dual Cup Holder, Phone Slot and Storage Side Pockets",
+        "description": "Comfortable Armrest Expansion Premium Leather Design Fits Most Cars"
+      },
+      "armrestMaroon": {
+        "name": "Premium Leather Car Armrest Cushion – Comfortable Center Console Pad with Built-in Cup Holder",
+        "description": "Anti-Slip Design Provides Comfort and Elbow Support While Driving – Suitable for Most Cars"
+      },
+      "seatOrganizer": {
+        "name": "Road Lions Car Seat Organizer - Strong Back Holder & Interior Storage Bag with Foldable Table Tray",
+        "description": "PU Leather, Easy to Clean, Multiple Pockets for Tablet, Bottles, Snacks - Perfect for Family Travel"
+      },
+      "gapOrganizer": {
+        "name": "Smart Car Seat Gap Organizer – Seat Gap Filler & Protector",
+        "description": "Prevent Dropping Phone, Keys & Money – Stylish & Flexible Design Fits All Cars – 2 Pack Black"
+      },
+      "neckPillow": {
+        "name": "Medical Memory Foam Car Headrest – Orthopedic Head Cushion for Car Seats",
+        "description": "Relieves Neck Pain, Comfortable Driving, Washable, Suitable for Long Trips – 2 Pack Black"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Upgrade Your Ride?",
+    "description": "Browse our collection of premium car accessories and find the perfect additions for your vehicle.",
+    "button": "Contact Us"
+  },
+  "about": {
+    "pageTitle": "About Road Lions",
+    "pageSubtitle": "Your Trusted Partner in Automotive Excellence",
+    "story": {
+      "title": "Our Story",
+      "p1": "Road Lions was founded with a simple mission: to provide car enthusiasts and everyday drivers with premium automotive accessories that combine quality, style, and functionality.",
+      "p2": "We understand that your vehicle is more than just a means of transportation—it's an extension of your personality and lifestyle. That's why we carefully curate our product selection to ensure every item meets our high standards for quality and performance.",
+      "p3": "From interior enhancements to exterior upgrades, our comprehensive range of products is designed to help you personalize and protect your vehicle while enhancing your driving experience."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "What drives us forward",
+      "quality": {
+        "title": "Quality First",
+        "description": "We source only the finest automotive accessories from trusted manufacturers. Every product undergoes rigorous quality checks to ensure it meets our standards."
+      },
+      "satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Your satisfaction is our priority. We're committed to providing exceptional service and support to ensure you have the best shopping experience."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay ahead of automotive trends, continuously updating our inventory with the latest innovations in car accessories and technology."
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Our team consists of automotive enthusiasts who understand your needs and can provide expert guidance on product selection and installation."
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Road Lions?",
+      "item1": {
+        "title": "Wide Selection",
+        "description": "Extensive range of products for all car makes and models"
+      },
+      "item2": {
+        "title": "Competitive Pricing",
+        "description": "Best value for money without compromising on quality"
+      },
+      "item3": {
+        "title": "Expert Support",
+        "description": "Knowledgeable team ready to assist with your needs"
+      },
+      "item4": {
+        "title": "Fast Shipping",
+        "description": "Quick and reliable delivery to your doorstep"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Have questions? We'd love to hear from you!",
+      "facebook": "Contact Us on Facebook",
+      "instagram": "Follow Us on Instagram"
+    }
+  },
+  "footer": {
+    "tagline": "Premium Car Accessories & Automotive Store",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "rights": "Road Lions. All rights reserved."
+  }
+}
+

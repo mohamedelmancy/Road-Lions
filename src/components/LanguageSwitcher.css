@@ -1,0 +1,37 @@
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.lang-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--primary-navy);
+  border: 2px solid var(--primary-navy);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.lang-btn:hover {
+  background-color: var(--primary-navy);
+  color: var(--text-light);
+}
+
+.lang-btn.active {
+  background-color: var(--primary-orange);
+  color: var(--text-light);
+  border-color: var(--primary-orange);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lang-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}
+
