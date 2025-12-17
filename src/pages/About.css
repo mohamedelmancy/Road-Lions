@@ -176,6 +176,19 @@
   flex-wrap: wrap;
 }
 
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+}
+
 /* Responsive */
 @media (max-width: 968px) {
   .page-title {

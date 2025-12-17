@@ -119,8 +119,10 @@
     "contact": {
       "title": "Get in Touch",
       "description": "Have questions? We'd love to hear from you!",
+      "whatsapp": "Contact Us on WhatsApp",
       "facebook": "Contact Us on Facebook",
-      "instagram": "Follow Us on Instagram"
+      "instagram": "Follow Us on Instagram",
+      "tiktok": "Follow Us on TikTok"
     }
   },
   "footer": {
