@@ -44,8 +44,11 @@ function AppContent() {
 }
 
 function App() {
+  // Use /Road-Lions for production (GitHub Pages), no basename for development
+  const basename = import.meta.env.PROD ? '/Road-Lions' : ''
+  
   return (
-    <Router basename="/Road-Lions">
+    <Router basename={basename}>
       <AppContent />
     </Router>
   )
