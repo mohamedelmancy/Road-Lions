@@ -1,0 +1,28 @@
+{
+  "name": "Road Lions - Car Accessories Store",
+  "short_name": "Road Lions",
+  "description": "Premium car accessories and automotive parts online store",
+  "start_url": "/Road-Lions/",
+  "display": "standalone",
+  "background_color": "#1a3a52",
+  "theme_color": "#1a3a52",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/Road-Lions/Header-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Road-Lions/Header-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "automotive"],
+  "lang": "en",
+  "dir": "auto"
+}
+
