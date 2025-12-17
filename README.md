@@ -5,18 +5,22 @@ A modern, responsive e-commerce website for Road Lions, specializing in premium 
 ## 🚀 Features
 
 - **Modern UI/UX**: Beautiful, responsive design optimized for all devices
+- **Bilingual Support**: Full English and Arabic translation with RTL layout
 - **Landing Page**: Showcasing featured products and company highlights
 - **About Us**: Company story, values, and mission
-- **Social Integration**: Connected to Facebook and Instagram
+- **Social Integration**: Connected to Facebook, Instagram, and TikTok
 - **Fast Performance**: Built with React + Vite for optimal speed
 - **SEO Ready**: Structured for search engine optimization
+- **GitHub Pages Ready**: Pre-configured for easy deployment
 
 ## 🛠️ Tech Stack
 
 - **React 18**: Modern React with hooks
 - **Vite**: Lightning-fast build tool
 - **React Router**: Client-side routing
+- **i18next**: Internationalization (English/Arabic)
 - **CSS3**: Custom styling with modern features
+- **gh-pages**: Automated GitHub Pages deployment
 
 ## 📦 Installation
 
@@ -46,9 +50,44 @@ Preview the production build locally:
 npm run preview
 ```
 
-## 🌐 Deployment
+## 🌐 Live Website
 
-### Deploy to Netlify (Recommended - Free)
+**🔗 https://mohamedelmancy.github.io/Road-Lions/**
+
+---
+
+## 🚀 GitHub Pages Deployment (Primary Method)
+
+This project is pre-configured and ready for GitHub Pages deployment!
+
+### Quick Deploy:
+```bash
+# Step 1: Push to GitHub (first time only)
+git add .
+git commit -m "Deploy Road Lions website"
+git push origin main
+
+# Step 2: Deploy to GitHub Pages
+npm run deploy
+```
+
+### First-Time Setup:
+📖 See **`DEPLOY_NOW.md`** for step-by-step instructions
+📚 See **`GITHUB_PAGES_DEPLOY.md`** for complete documentation
+
+### Update Your Live Site:
+```bash
+git add .
+git commit -m "Update website"
+git push origin main
+npm run deploy
+```
+
+---
+
+## 📤 Alternative Deployment Options
+
+### Deploy to Netlify
 
 1. **Option 1: Drag & Drop**
    - Run `npm run build`
@@ -63,7 +102,7 @@ npm run preview
    - Netlify will auto-detect settings from `netlify.toml`
    - Click "Deploy site"
 
-### Deploy to Vercel (Alternative - Free)
+### Deploy to Vercel
 
 1. Push your code to GitHub
 2. Go to [Vercel](https://vercel.com/)
@@ -71,35 +110,6 @@ npm run preview
 4. Import your GitHub repository
 5. Vercel will auto-detect settings from `vercel.json`
 6. Click "Deploy"
-
-### Deploy to GitHub Pages (Free)
-
-1. Install gh-pages:
-```bash
-npm install --save-dev gh-pages
-```
-
-2. Add to `package.json`:
-```json
-"homepage": "https://yourusername.github.io/road-lions",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-```
-
-3. Update `vite.config.js`:
-```javascript
-export default defineConfig({
-  plugins: [react()],
-  base: '/road-lions/'
-})
-```
-
-4. Deploy:
-```bash
-npm run deploy
-```
 
 ## 📝 Customization
 
@@ -121,12 +131,13 @@ Brand colors are defined in `/src/index.css` using CSS variables:
 
 ### Logo
 
-Replace `/public/logo.jpeg` with your logo file.
+The logo is located at `/public/Header-logo.png`. Replace it with your own logo file while keeping the same filename.
 
 ## 📱 Social Media
 
 - Facebook: [Road Lions Facebook](https://web.facebook.com/profile.php?id=61580810542713)
 - Instagram: [@roadlions_1](https://www.instagram.com/roadlions_1/)
+- TikTok: [@road_lions0](https://www.tiktok.com/@road_lions0)
 
 ## 🔒 Security Notes
 
@@ -143,6 +154,7 @@ Replace `/public/logo.jpeg` with your logo file.
 For questions or support, reach out via:
 - Facebook: [Road Lions](https://web.facebook.com/profile.php?id=61580810542713)
 - Instagram: [@roadlions_1](https://www.instagram.com/roadlions_1/)
+- TikTok: [@road_lions0](https://www.tiktok.com/@road_lions0)
 
 ---
 
